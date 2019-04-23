@@ -4,7 +4,7 @@ AUTO-XRD
 Description
 ===========
 
-AUTO-XRD is a python package for automatic XRD pattern classification of thin-film using small / sparse and class imbalanced datasets.
+AUTO-XRD is a python package for automatic XRD pattern classification of thin-film using small and class imbalanced datasets.
 
 The main application of AUTO-XRD is high-throughput screening of novel thin-film materials, such as perovskites and perovskite-inspired materiales. 
 
