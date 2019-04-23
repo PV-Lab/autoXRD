@@ -1,12 +1,21 @@
+===========
+AUTO-XRD
+===========
 Description
 ===========
-This repository contains data for automatic XRD pattern classification of thin-film using small / sparse and class imbalanced datasetes. 
-The main application is screenign of novel thin-film materials such as perovskites and perovskite-inspired materiales. 
 
-The algorithm performs physics-informed data augmentation to solve the small data problem, and allows interpretation using Average Class Activation Maps (CAMs), according to the following publications:
+AUTO-XRD is a python package for automatic XRD pattern classification of thin-film using small / sparse and class imbalanced datasets.
+
+The main application of AUTO-XRD is high-throughput screening of novel thin-film materials, such as perovskites and perovskite-inspired materiales. 
+
+AUTO-XRD performs physics-informed data augmentation to solve the small data problem, and allows interpretation using Average Class Activation Maps (CAMs), according to the following publications:
 
 XXX
 XXX
+XXX
+
+This repository contains data used for both studies, experimentally acquired for the following publication:
+
 XXX
 
 Usage
