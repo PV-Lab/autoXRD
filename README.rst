@@ -1,9 +1,9 @@
 Description
 ===========
-This repository contains data for automatic XRD pattern classification of thin-film using scarce / sparse and class imbalanced datasetes. 
-The main application is material screen of solution-processed materials such as perovskites and perovskite-inspired materiales. 
+This repository contains data for automatic XRD pattern classification of thin-film using small / sparse and class imbalanced datasetes. 
+The main application is screenign of novel thin-film materials such as perovskites and perovskite-inspired materiales. 
 
-The algorithm performs physics-informed data augmentation and interpretation using average Class Activation Maps, according to the following publications:
+The algorithm performs physics-informed data augmentation to solve the small data problem, and allows interpretation using Average Class Activation Maps (CAMs), according to the following publications:
 
 XXX
 XXX
