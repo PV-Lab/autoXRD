@@ -22,9 +22,11 @@ Usage
 ======================
 The code constains three scripts with differente approaches to the problem:
 
-AUTOXRD_CNN_Dimensionality.py - Performs classification of XRD patterns into 3 dimensionalities using a-CNN
-AUTOXRD_CNN_Space_Group.py - Performs classsification of XRD patterns into 7 space-groups using a-CNN.
-Demo / XRD_demo.ipynb - Jupyter Notebook containing a demo for physics-informed data augmentation, as presented in the Accelerated Materials Development (AMD) Workshop in Singapore.
+-AUTOXRD_CNN_Dimensionality.py - Performs classification of XRD patterns into 3 dimensionalities using a-CNN
+
+-AUTOXRD_CNN_Space_Group.py - Performs classsification of XRD patterns into 7 space-groups using a-CNN.
+
+-Demo / XRD_demo.ipynb - Jupyter Notebook containing a demo for physics-informed data augmentation, as presented in the Accelerated Materials Development (AMD) Workshop in Singapore.
 
 In the future, the code will be included as a PIP package.
 
@@ -37,4 +39,6 @@ Information
 
 Attribution
 ===========
-Please cite this work as:
+This work is under an Apache 2.0 License and data policies of Nature Partner Journal Computational Materials. Please, acknowledge use of this work with the following citation:
+
+
