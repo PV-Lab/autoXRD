@@ -258,7 +258,7 @@ for k, (train, test) in enumerate(k_fold.split(X_exp, y_exp)):
         logs.append(log)
        
         #Save models on current folder with names subscripts 0 to 4
-        model.save('keras_model'+str(k)+'.h5')
+        model.save(os.path.join(dirname, 'Model_Runs/keras_model')+str(k)+'.h5')
 
 #
 accuracy = np.array(accuracy)        
