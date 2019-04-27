@@ -17,7 +17,7 @@ autoXRD performs physics-informed data augmentation to solve the small data prob
 
 To install, just clone the following repository:
 
-`$ git clone https://github.com/PV-Lab/AUTO-XRD.git`
+`$ git clone https://github.com/PV-Lab/autoXRD.git`
 
 ## Usage
 
