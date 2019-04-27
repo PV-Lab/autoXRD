@@ -1,7 +1,7 @@
 
 autoXRD
 ===========
-##Description
+## Description
 
 
 autoXRD is a python package for automatic XRD pattern classification of thin-films, tweaked for small and class-imbalanced datasets. 
@@ -12,39 +12,36 @@ autoXRD performs physics-informed data augmentation to solve the small data prob
 
 "**Fast and interpretable classification of small X-ray diffraction datasets using data augmentation and deep neural network, (2019), Felipe Oviedo, Zekun Ren, et. al.  Link: [arXiv:1811.08425v](https://arxiv.org/abs/1811.08425v2)**
 
-**Waiting for press in npj Computational Material**
-**Accepted to NeurIPS, Machine Learning for Molecules and Materials 2018**
 
-##Instalation
+## Instalation
 
 To install, just clone the following repository:
 
 `$ git clone https://github.com/PV-Lab/AUTO-XRD.git`
 
-##Usage
+## Usage
 
 Just run `space_group_a_CNN.py` , with the given datasets. 
 The package contains the following module and scripts:
 
-| Module | Description                    |  Version
+| Module | Description |
 | ------------- | ------------------------------ |
-| `space_group_a_CNN.py`      | Script for XRD space-group classification with a-CNN      | 0.9
-| `autoXRD`      | Module dedicated to XRD pattern preprocessing and data augmentation       | 1.0
-| `autoXRD_vis`   | Visualizer module for class activation maps (CAMs)     | 0.2
-| `Old-Demo / XRD_demo.ipynb` | Notebook containing a demo for physics-informed data augmentation, as presented in the **Accelerated Materials Development (AMD) Workshop** in Singapore. | 0.1
+| `space_group_a_CNN.py`      | Script for XRD space-group classification with a-CNN      |
+| `autoXRD`      | Module dedicated to XRD pattern preprocessing and data augmentation       |
+| `autoXRD_vis`   | Visualizer module for class activation maps (CAMs)     |
+| `Old-Demo / XRD_demo.ipynb` | Notebook containing a demo for physics-informed data augmentation, as presented in the **Accelerated Materials Development (AMD) Workshop** in Singapore. |
 
-##Information
 
-Authors:
-    Felipe Oviedo and "Danny" Zekun Ren
+## Authors
+Felipe Oviedo and "Danny" Zekun Ren
 
-:Version: AUTOXRD_CNN is in version 0.9 as of February 2019
 
 ||                    |
 | ------------- | ------------------------------ |
 | **AUTHORS**      | Felipe Oviedo and "Danny" Ren Zekun     | 
+| **VERSION**      | 0.9 / April, 2019     | 
 ||                    |
 
-##Attribution
+## Attribution
 
 This work is under an Apache 2.0 License and data policies of Nature Partner Journal Computational Materials. Please, acknowledge use of this work with the apropiate citation.
