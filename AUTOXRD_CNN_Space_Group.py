@@ -202,7 +202,7 @@ def exp_data_processing (data,minn,maxn,window):
 
 
 #os.chdir(r"/Users/danny/Dropbox/work/Campaign/XRD space group/Danny XRD check/Theoretical")
-os.chdir(r"C:\Users\fovie\Dropbox (MIT)\XRD space group\Danny XRD check\Theoretical")
+os.chdir(r"C:\Users\fovie\Dropbox (MIT)\MIT Research\XRD ML\XRD space group\Danny XRD check\Theoretical")
 #Produce lists with sample names
 excluded="test.ASC"
 directory=[]
@@ -221,13 +221,19 @@ for indx,vals in enumerate(x):
     grp['%s' %vals] = group(spectra_th,indx)
 
 theor=pd.concat(grp,axis=1)
+pd.DataFrame(theor).to_csv(r'C:\Users\fovie\Documents\GitHub\AUTO-XRD\theor.csv')
+
+pd.Series(theor.columns.get_level_values(0)).to_csv(r'C:\Users\fovie\Documents\GitHub\AUTO-XRD\label_theo.csv')
+
+aa = list(theor.columns.get_level_values(0))
+
 theor_arr=theor.values
 
 #%Normalize data
 ntheor = normdata (theor_arr)
 
 #os.chdir(r"/Users/danny/Dropbox/work/Campaign/XRD space group/Danny XRD check/Experimental")
-os.chdir(r"C:\Users\fovie\Dropbox (MIT)\XRD space group\Danny XRD check\Experimental")
+os.chdir(r"C:\Users\fovie\Dropbox (MIT)\MIT Research\XRD ML\XRD space group\Danny XRD check\Experimental")
 #Produce lists with sample names
 directory2=[]
 for dir,dirs, files in os.walk("."):
@@ -275,7 +281,7 @@ for i in range(len(exp.T)//2):
 #We didn't simulate the peak at 5.00 degrees, so start from 5.04
 exp_arr_new=exp_arr_new[1:,:]
 
-
+#%%
 #%
 #normalization
 nexp = normdata (exp_arr_new)
@@ -303,6 +309,8 @@ for i in range(len(pard)):
     
     temp = pard[i]
     label_t[i]=directory.index(temp[0])
+    
+pd.DataFrame(directory).to_csv(r'C:\Users\fovie\Documents\GitHub\AUTO-XRD\encoding.csv')
 
  #convert experimental label from space group to numbers       
 
