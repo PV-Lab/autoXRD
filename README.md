@@ -4,9 +4,7 @@ autoXRD
 ## Description
 
 
-autoXRD is a python package for automatic XRD pattern classification of thin-films, tweaked for small and class-imbalanced datasets. 
-
-autoXRD's main application is high-throughput screening of novel materials.
+autoXRD is a python package for automatic XRD pattern classification of thin-films, tweaked for small and class-imbalanced datasets. The main application of the package is high-throughput screening of novel materials.
 
 autoXRD performs physics-informed data augmentation to solve the small data problem, implements a state-of-the-art a-CNN architecture and allows interpretation using Average Class Activation Maps (CAMs), according to the following publications:
 
