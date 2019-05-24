@@ -42,7 +42,7 @@ Felipe Oviedo and "Danny" Zekun Ren
 ||                    |
 | ------------- | ------------------------------ |
 | **AUTHORS**      | Felipe Oviedo and "Danny" Ren Zekun     | 
-| **VERSION**      | 0.9 / April, 2019     | 
+| **VERSION**      | 1.0 / May, 2019     | 
 | **EMAIL OF REPO OWNER**      | foviedo@mit.edu  | 
 ||                    |
 
