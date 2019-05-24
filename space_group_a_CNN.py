@@ -68,7 +68,6 @@ kernel_size = 10
 # Load simulated and anonimized dataset
 import os
 dirname = os.path.dirname(__file__)
-filename = os.path.join(dirname, 'relative/path/to/file/you/want')
 
 theor = pd.read_csv(os.path.join(dirname, 'Datasets/theor.csv'), index_col=0)
 theor = theor.iloc[1:,]
@@ -258,7 +257,7 @@ for k, (train, test) in enumerate(k_fold.split(X_exp, y_exp)):
         logs.append(log)
        
         #Save models on current folder with names subscripts 0 to 4
-        model.save(os.path.join(dirname, 'Model_Runs/keras_model')+str(k)+'.h5')
+        model.save(os.path.join(dirname, 'keras_model')+str(k)+'.h5')
 
 #
 accuracy = np.array(accuracy)        
@@ -320,7 +319,7 @@ cam_cor=pd.DataFrame(cam_cor)
 cam_cor=cam_cor.iloc[1:]
 
 #Plot a single correctly classified pattern
-plot_cam(cam_cor.iloc[-1,:],'Incorrect: true class 6, predicted is 6', X_exp[int(corrects_filtered.index[-1])])
+plot_cam(cam_cor.iloc[-1,:],'CAM for single pattern: true class 6, predicted is 6', X_exp[int(corrects_filtered.index[-1])])
 
 # Note that results may vary due to NN variability during training, make sure you are plotting
 # correct and incorrect cases clearly

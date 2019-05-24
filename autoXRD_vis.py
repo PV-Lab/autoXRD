@@ -17,7 +17,9 @@ in the README.rst file, in the GitHub repository.
 
 #%%
 #Function, plot the cam and spectra of certain set of samples
-    
+   
+
+from keras.models import Model 
 from keras.models import load_model
 import numpy as np  
 import matplotlib.pyplot as plt
