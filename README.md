@@ -13,7 +13,7 @@ autoXRD performs physics-informed data augmentation to solve the small data prob
 
 "**Fast classification of small X-ray diffraction datasets using data augmentation and deep neural networks, (2019), Felipe Oviedo, Zekun Ren, et. al.  Link: [arXiv:1811.08425v](https://arxiv.org/abs/1811.08425v2)**
 
-**Accepted to NeurIPS 2018 ML for Molecules and Materials Workshop. Final version published npj Computational Materials 2019**
+Accepted to NeurIPS 2018 ML for Molecules and Materials Workshop. Final version published npj Computational Materials 2019
 
 
 ## Installation
