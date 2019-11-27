@@ -32,7 +32,7 @@ The package contains the following module and scripts:
 | `space_group_a_CNN.py`      | Script for XRD space-group classification with a-CNN      |
 | `autoXRD`      | Module dedicated to XRD pattern preprocessing and data augmentation       |
 | `autoXRD_vis`   | Visualizer module for class activation maps (CAMs)     |
-| `Demo / XRD_demo.ipynb` | Notebook containing a demo for physics-informed data augmentation, as presented in the **Accelerated Materials Development (AMD) Workshop** in Singapore. This is a version without a-CNNs or CAM|
+| `Demo / XRD_dimensionality_demo.ipynb` | Notebook containing a demo for physics-informed data augmentation. This is a version with a modified CNN and no CAM to speed up the computation
 
 
 ## Authors
