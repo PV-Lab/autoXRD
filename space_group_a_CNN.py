@@ -26,9 +26,9 @@ in the README.rst file, in the GitHub repository.
 #################################################################
 
 # Loads series of functions for preprocessing and data augmentation
-import autoXRD
+from autoXRD import *
 # Loads CAMs visualizations for a-CNN
-import autoXRD_vis
+from autoXRD_vis import *
 
 import numpy as np  
 import matplotlib.pyplot as plt
